@@ -1,0 +1,30 @@
+.app-wrapper {
+  display: grid;
+
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+
+}
+
+.headerr img {
+  width: 4%;
+}
+
+.headerr {
+  grid-area: h;
+  background-color: cornflowerblue;
+}
+
+.navv {
+  grid-area: n;
+  background-color: blanchedalmond;
+}
+
+.ProfilePage {
+  grid-area: c;
+  background-color:cyan;
+}
